@@ -79,7 +79,7 @@ Works as a normal script or pasted into a **Google Colab** cell.
 
 ## Settings
 
-All settings are in the SETTINGS block of `pubmed_search_report.py`.
+All settings are in the SETTINGS block of `cat_research.py`.
 
 | Setting | What it does |
 |---|---|
@@ -136,7 +136,7 @@ One row per paper, saved with a UTF-8 byte-order mark so Excel displays Mandarin
 
 ## Converting an older HTML report
 
-If you already have a single-page report from an earlier version of the script, `html_to_journal_tabs.py` turns it into the tabbed report and a CSV, **reusing the summaries already in the file** (no new LLM requests).
+If you already have a single-page report from an earlier version of the script, `cat_research.py` turns it into the tabbed report and a CSV, **reusing the summaries already in the file** (no new LLM requests).
 
 1. Put the old report (for example `index.html`) in the same folder, or upload it in Colab. In Colab the script shows an upload button if it can't find the file.
 2. Set `INPUT_HTML` in the settings block and run the script.
