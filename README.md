@@ -49,7 +49,8 @@ See final reports: https://elainechenly.github.io/cat_research/
 
 | File | Purpose |
 |---|---|
-| `cat_research.py` | The main script: search → filter → summarize → HTML + CSV. |
+| `cat_research.py` | The main script: search → filter → summarize → HTML. |
+| `refine_html.py` | The second script: refine HTML and save to csv. |
 
 ---
 
@@ -61,19 +62,6 @@ See final reports: https://elainechenly.github.io/cat_research/
 - A free **Gemini API key** (only for the LLM step; see below). Without a key the script still runs, skipping the LLM filter and summaries.
 
 Works as a normal script or pasted into a **Google Colab** cell.
-
----
-
-## Quick start
-
-1. Open `cat_research.py` and edit only the **SETTINGS** block at the top.
-2. (Optional) Add your Gemini key. In Colab, open the key icon (Secrets), add a secret named `GEMINI_API_KEY`, and enable notebook access. Elsewhere, set an environment variable named `GEMINI_API_KEY`. You can also paste the key into `GEMINI_API_KEY = ""`, but then don't share the file.
-3. Run it:
-   ```
-   python cat_research.py
-   ```
-   In Colab, paste the whole file into a cell and run it.
-4. Open `pubmed_results.html` in a browser. The CSV is saved next to it. In Colab, download both from the file panel before the session ends.
 
 ---
 
