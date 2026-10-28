@@ -4,7 +4,7 @@ A small Python project that searches PubMed for papers in selected journals, kee
 
 It is built to be easy to adapt: journals and keywords are plain Python lists at the top of the script.
 
-See Final Reports: https://elainechenly.github.io/cat_research/
+See final reports: https://elainechenly.github.io/cat_research/
 
 ---
 
