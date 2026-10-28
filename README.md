@@ -47,8 +47,7 @@ It is built to be easy to adapt: journals and keywords are plain Python lists at
 
 | File | Purpose |
 |---|---|
-| `pubmed_search_report.py` | The main script: search → filter → summarize → HTML + CSV. |
-| `html_to_journal_tabs.py` | Converter for an **older single-page HTML report**: rebuilds it as the tabbed report and CSV without calling the LLM again. Optionally looks up exact dates and abstracts from PubMed. |
+| `cat_research.py` | The main script: search → filter → summarize → HTML + CSV. |
 
 ---
 
